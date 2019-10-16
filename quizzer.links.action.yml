@@ -1,0 +1,15 @@
+entity.qiz_question.add_form:
+  route_name: entity.qiz_question.add_form
+  title: 'Add Qiz question'
+  appears_on:
+    - entity.qiz_question.collection
+entity.qiz_quiz.add_form:
+  route_name: entity.qiz_quiz.add_form
+  title: 'Add Qiz quiz'
+  appears_on:
+    - entity.qiz_quiz.collection
+entity.qiz_result.add_form:
+  route_name: entity.qiz_result.add_form
+  title: 'Add Qiz result'
+  appears_on:
+    - entity.qiz_result.collection

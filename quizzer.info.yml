@@ -1,0 +1,10 @@
+name: 'quizzer'
+type: module
+description: 'Create quizzes and tests'
+core: 8.x
+package: 'CB'
+dependencies:
+  - entity
+  - text
+  - views_bulk_operations
+  - options

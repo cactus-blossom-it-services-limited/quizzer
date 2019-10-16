@@ -1,0 +1,22 @@
+{#
+/**
+ * @file qiz_question.html.twig
+ * Default theme implementation to present Qiz question data.
+ *
+ * This template is used when viewing Qiz question pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_qiz_question()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('qiz_question') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

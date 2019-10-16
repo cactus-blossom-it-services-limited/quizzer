@@ -1,0 +1,99 @@
+add qiz question entities:
+  title: 'Create new Qiz question entities'
+
+administer qiz question entities:
+  title: 'Administer Qiz question entities'
+  description: 'Allow to access the administration form to configure Qiz question entities.'
+  restrict access: true
+
+delete qiz question entities:
+  title: 'Delete Qiz question entities'
+
+edit qiz question entities:
+  title: 'Edit Qiz question entities'
+
+view published qiz question entities:
+  title: 'View published Qiz question entities'
+
+view unpublished qiz question entities:
+  title: 'View unpublished Qiz question entities'
+
+view all qiz question revisions:
+  title: 'View all Qiz question revisions'
+
+revert all qiz question revisions:
+  title: 'Revert all Qiz question revisions'
+  description: 'Role requires permission <em>view Qiz question revisions</em> and <em>edit rights</em> for qiz question entities in question or <em>administer qiz question entities</em>.'
+
+delete all qiz question revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Qiz question revisions</em> and <em>delete rights</em> for qiz question entities in question or <em>administer qiz question entities</em>.'
+
+#permission_callbacks:
+#  - \Drupal\quizzer\QizQuestionPermissions::generatePermissions
+add qiz quiz entities:
+  title: 'Create new Qiz quiz entities'
+
+administer qiz quiz entities:
+  title: 'Administer Qiz quiz entities'
+  description: 'Allow to access the administration form to configure Qiz quiz entities.'
+  restrict access: true
+
+delete qiz quiz entities:
+  title: 'Delete Qiz quiz entities'
+
+edit qiz quiz entities:
+  title: 'Edit Qiz quiz entities'
+
+view published qiz quiz entities:
+  title: 'View published Qiz quiz entities'
+
+view unpublished qiz quiz entities:
+  title: 'View unpublished Qiz quiz entities'
+
+view all qiz quiz revisions:
+  title: 'View all Qiz quiz revisions'
+
+revert all qiz quiz revisions:
+  title: 'Revert all Qiz quiz revisions'
+  description: 'Role requires permission <em>view Qiz quiz revisions</em> and <em>edit rights</em> for qiz quiz entities in question or <em>administer qiz quiz entities</em>.'
+
+delete all qiz quiz revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Qiz quiz revisions</em> and <em>delete rights</em> for qiz quiz entities in question or <em>administer qiz quiz entities</em>.'
+
+#permission_callbacks:
+#  - \Drupal\quizzer\QizQuizPermissions::generatePermissions
+add qiz result entities:
+  title: 'Create new Qiz result entities'
+
+administer qiz result entities:
+  title: 'Administer Qiz result entities'
+  description: 'Allow to access the administration form to configure Qiz result entities.'
+  restrict access: true
+
+delete qiz result entities:
+  title: 'Delete Qiz result entities'
+
+edit qiz result entities:
+  title: 'Edit Qiz result entities'
+
+view published qiz result entities:
+  title: 'View published Qiz result entities'
+
+view unpublished qiz result entities:
+  title: 'View unpublished Qiz result entities'
+
+view all qiz result revisions:
+  title: 'View all Qiz result revisions'
+
+revert all qiz result revisions:
+  title: 'Revert all Qiz result revisions'
+  description: 'Role requires permission <em>view Qiz result revisions</em> and <em>edit rights</em> for qiz result entities in question or <em>administer qiz result entities</em>.'
+
+delete all qiz result revisions:
+  title: 'Delete all revisions'
+  description: 'Role requires permission to <em>view Qiz result revisions</em> and <em>delete rights</em> for qiz result entities in question or <em>administer qiz result entities</em>.'
+
+#permission_callbacks:
+#  - \Drupal\quizzer\QizResultPermissions::generatePermissions

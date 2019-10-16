@@ -1,0 +1,22 @@
+{#
+/**
+ * @file qiz_result.html.twig
+ * Default theme implementation to present Qiz result data.
+ *
+ * This template is used when viewing Qiz result pages.
+ *
+ *
+ * Available variables:
+ * - content: A list of content items. Use 'content' to print all content, or
+ * - attributes: HTML attributes for the container element.
+ *
+ * @see template_preprocess_qiz_result()
+ *
+ * @ingroup themeable
+ */
+#}
+<div{{ attributes.addClass('qiz_result') }}>
+  {% if content %}
+    {{- content -}}
+  {% endif %}
+</div>

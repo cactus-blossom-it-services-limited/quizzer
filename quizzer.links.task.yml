@@ -1,0 +1,78 @@
+# Qiz question routing definition
+qiz_question.settings_tab:
+  route_name: qiz_question.settings
+  title: 'Settings'
+  base_route: qiz_question.settings
+
+entity.qiz_question.canonical:
+  route_name: entity.qiz_question.canonical
+  base_route: entity.qiz_question.canonical
+  title: 'View'
+
+entity.qiz_question.edit_form:
+  route_name: entity.qiz_question.edit_form
+  base_route: entity.qiz_question.canonical
+  title: 'Edit'
+
+entity.qiz_question.version_history:
+  route_name: entity.qiz_question.version_history
+  base_route: entity.qiz_question.canonical
+  title: 'Revisions'
+
+entity.qiz_question.delete_form:
+  route_name:  entity.qiz_question.delete_form
+  base_route:  entity.qiz_question.canonical
+  title: Delete
+  weight: 10
+# Qiz quiz routing definition
+qiz_quiz.settings_tab:
+  route_name: qiz_quiz.settings
+  title: 'Settings'
+  base_route: qiz_quiz.settings
+
+entity.qiz_quiz.canonical:
+  route_name: entity.qiz_quiz.canonical
+  base_route: entity.qiz_quiz.canonical
+  title: 'View'
+
+entity.qiz_quiz.edit_form:
+  route_name: entity.qiz_quiz.edit_form
+  base_route: entity.qiz_quiz.canonical
+  title: 'Edit'
+
+entity.qiz_quiz.version_history:
+  route_name: entity.qiz_quiz.version_history
+  base_route: entity.qiz_quiz.canonical
+  title: 'Revisions'
+
+entity.qiz_quiz.delete_form:
+  route_name:  entity.qiz_quiz.delete_form
+  base_route:  entity.qiz_quiz.canonical
+  title: Delete
+  weight: 10
+# Qiz result routing definition
+qiz_result.settings_tab:
+  route_name: qiz_result.settings
+  title: 'Settings'
+  base_route: qiz_result.settings
+
+entity.qiz_result.canonical:
+  route_name: entity.qiz_result.canonical
+  base_route: entity.qiz_result.canonical
+  title: 'View'
+
+entity.qiz_result.edit_form:
+  route_name: entity.qiz_result.edit_form
+  base_route: entity.qiz_result.canonical
+  title: 'Edit'
+
+entity.qiz_result.version_history:
+  route_name: entity.qiz_result.version_history
+  base_route: entity.qiz_result.canonical
+  title: 'Revisions'
+
+entity.qiz_result.delete_form:
+  route_name:  entity.qiz_result.delete_form
+  base_route:  entity.qiz_result.canonical
+  title: Delete
+  weight: 10

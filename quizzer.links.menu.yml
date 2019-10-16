@@ -1,0 +1,42 @@
+
+# Qiz question menu items definition
+entity.qiz_question.collection:
+  title: 'Qiz question list'
+  route_name: entity.qiz_question.collection
+  description: 'List Qiz question entities'
+  parent: system.admin_structure
+  weight: 100
+
+qiz_question.admin.structure.settings:
+  title: 'Qiz question settings'
+  description: 'Configure Qiz question entities'
+  route_name: qiz_question.settings
+  parent: system.admin_structure
+
+# Qiz quiz menu items definition
+entity.qiz_quiz.collection:
+  title: 'Qiz quiz list'
+  route_name: entity.qiz_quiz.collection
+  description: 'List Qiz quiz entities'
+  parent: system.admin_structure
+  weight: 100
+
+qiz_quiz.admin.structure.settings:
+  title: 'Qiz quiz settings'
+  description: 'Configure Qiz quiz entities'
+  route_name: qiz_quiz.settings
+  parent: system.admin_structure
+
+# Qiz result menu items definition
+entity.qiz_result.collection:
+  title: 'Qiz result list'
+  route_name: entity.qiz_result.collection
+  description: 'List Qiz result entities'
+  parent: system.admin_structure
+  weight: 100
+
+qiz_result.admin.structure.settings:
+  title: 'Qiz result settings'
+  description: 'Configure Qiz result entities'
+  route_name: qiz_result.settings
+  parent: system.admin_structure
